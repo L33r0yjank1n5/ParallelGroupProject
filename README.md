@@ -1,17 +1,11 @@
-#NEEDS TO BE DONE STILL 
+WE ARE DONE BIOS
 
+All 3 the files (groupAssign.cpp, groupAssign, and New_ratings_Musical_Instruments.csv) should all be in the same directory.
 
-List of Like users (DONE)
+To compile use command:
 
-->list of items of like users (DONE)
+g++ -O3 -w groupAssign.cpp -lpthread -o groupAssign
 
-->take list of items and find weighted average per item ('average rating' * 'number of like users that rated the item')
-	
-->report item recommendation based on what item had best wieghted average.
-		
-->Once above is done, need to parallize it.
+Then use this command to run:
 
-
-Notes on What needs to be done still:
-
--> Line 133 is where we need to get ItemRatings and weighted averages per item here.
+./groupAssign <numberOfThreads>

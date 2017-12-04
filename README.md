@@ -8,4 +8,4 @@ g++ -O3 -w groupAssign.cpp -lpthread -o groupAssign
 
 Then use this command to run:
 
-./groupAssign <numberOfThreads>
+./groupAssign 'numberOfThreads'
